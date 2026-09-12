@@ -1,0 +1,4 @@
+Japanese manga style, black and white line art, screentone shading, clean shonen-seinen art style, close-up of a smartphone notification screen, a single new email, dramatic lighting, consistent character design, monochrome manga panel, white background, no text, no speech bubbles, no letters, vertical B6 page ratio
+
+[negative]
+text, letters, speech bubble, watermark, signature, color, blurry, extra fingers, deformed face

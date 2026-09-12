@@ -1,0 +1,10 @@
+raw/**/*.png
+raw/**/*.jpg
+raw/**/*.webp
+panels/
+composed/
+build/
+fonts/*.ttf
+fonts/*.otf
+fonts/*.ttc
+__pycache__/

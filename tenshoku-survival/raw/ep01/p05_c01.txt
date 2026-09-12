@@ -1,0 +1,4 @@
+Japanese manga style, black and white line art, screentone shading, clean shonen-seinen art style, unnamed side character shown only from behind or as silhouette or hands only, face not visible, imagined scene, a hiring manager's hands rapidly moving resume papers into two piles, one pile much larger than the other, top-down view, consistent character design, monochrome manga panel, white background, no text, no speech bubbles, no letters, vertical B6 page ratio
+
+[negative]
+text, letters, speech bubble, watermark, signature, color, blurry, extra fingers, deformed face

@@ -1,0 +1,717 @@
+{
+  "episode": 1,
+  "title": "書類は読まれていない",
+  "series": "転職サバイバル 〜面接官だけが知る選考の秘密〜",
+  "_comment": "panels は読み順（右→左、上→下）。ネーム原稿のコマ番号は panel.name に残してある。balloons の anchor はセル内の配置位置。text 中の **太字** は強調。",
+  "pages": [
+    {
+      "page": 1,
+      "layout": "full",
+      "panels": [
+        {
+          "id": "p01_c01",
+          "name": "コマ1（1ページ全面）",
+          "prompt": "full page, young businessman standing alone in a crowded Tokyo station concourse at dusk, blurred commuters rushing past him, he is motionless looking at his smartphone, wide shot, melancholic atmosphere",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "narration",
+              "text": "十五社、応募した。",
+              "anchor": "top-right"
+            },
+            {
+              "type": "title",
+              "text": "第1話\n「書類は読まれていない」",
+              "anchor": "center-left"
+            },
+            {
+              "type": "narration",
+              "text": "全部、書類で落ちた。",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "layout": "top_wide__mid2__bottom_big",
+      "panels": [
+        {
+          "id": "p02_c01",
+          "name": "コマ1（横長・上段）",
+          "prompt": "close-up of a smartphone screen held in hand, email inbox showing many similar notification emails, fingers scrolling",
+          "characters": [],
+          "balloons": [
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "また同じ文面だ。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p02_c03",
+          "name": "コマ3（中段右）※ネームではコマ3。右開きの読み順で右セルに配置",
+          "prompt": "close-up of the businessman's face, tired eyes, faint bitter smile",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "慎重に？\n三時間で返ってきたぞ。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p02_c02",
+          "name": "コマ2（中段左）",
+          "prompt": "over-the-shoulder view of the businessman reading his phone, shoulders slumped, night train window reflection",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "「慎重に選考した結果」……",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p02_c04",
+          "name": "コマ4（下段・大）",
+          "prompt": "the businessman sitting alone on a late-night commuter train, empty seats, harsh fluorescent light from above",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "七年やってきた。数字も出した。",
+              "anchor": "top-right"
+            },
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "なのに、誰も俺を見てすらいない。",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "layout": "top_big__mid2__bottom",
+      "panels": [
+        {
+          "id": "p03_c01",
+          "name": "コマ1（上段・大）",
+          "prompt": "bright modern office meeting room in daytime, glass partition, a woman in charcoal suit sitting across a small table, documents between them",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "narration",
+              "text": "翌週。転職エージェント面談。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p03_c03",
+          "name": "コマ3（中段右）※読み順で右",
+          "prompt": "the businessman watching nervously, hands on knees",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "thought",
+              "speaker": "yota",
+              "text": "早い……\nもう読み終わった？",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p03_c02",
+          "name": "コマ2（中段左）",
+          "prompt": "the woman in charcoal suit flipping through a printed resume, expressionless, only a few seconds of attention",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "……。",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p03_c04",
+          "name": "コマ4（下段）",
+          "prompt": "the woman placing the resume down on the table with one hand, looking directly forward",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "佐倉さん。この書類、\n何秒で読まれたと思います？",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "layout": "top2__mid_big__bottom",
+      "panels": [
+        {
+          "id": "p04_c01",
+          "name": "コマ1（上段・読み順で右）",
+          "prompt": "the businessman confused, tilting head slightly",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "え……五分、とか。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p04_c02",
+          "name": "コマ2（上段・読み順で左）",
+          "prompt": "close-up of the woman's sharp eyes behind silver glasses",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "十五秒です。私で。",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p04_c03",
+          "name": "コマ3（中段・大）",
+          "prompt": "dramatic composition, the businessman's shocked face in foreground, stack of hundreds of resumes towering behind him in silhouette",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "企業の人事はもっと短い。",
+              "anchor": "top-right"
+            },
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "一つの求人に百通、二百通。\n全部を精読する時間は、\n物理的に存在しません。",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p04_c04",
+          "name": "コマ4（下段）",
+          "prompt": "the woman gesturing calmly with an open palm over the desk",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "**書類選考は「読む」作業じゃない。**\n**「外す」作業なんです。**",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "layout": "top_big__mid2__bottom",
+      "panels": [
+        {
+          "id": "p05_c01",
+          "name": "コマ1（上段・大）",
+          "prompt": "imagined scene, a hiring manager's hands rapidly moving resume papers into two piles, one pile much larger than the other, top-down view",
+          "characters": [
+            "_extra"
+          ],
+          "balloons": [
+            {
+              "type": "narration",
+              "text": "通す理由を探すのではない。\n外す理由を探す。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p05_c02",
+          "name": "コマ2（中段・読み順で右）",
+          "prompt": "the businessman leaning forward, agitated",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "待ってください。\nそれじゃ中身を\n見てもらえないじゃないですか。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p05_c03",
+          "name": "コマ3（中段・読み順で左）",
+          "prompt": "the woman unmoved, slight nod",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "ええ。見てもらえません。",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p05_c04",
+          "name": "コマ4（下段）",
+          "prompt": "close-up of the woman's hand pointing at the very top section of a resume document",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "だから、勝負は\n**最初の三行**で終わってる。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "layout": "top_wide__mid2__bottom_big",
+      "panels": [
+        {
+          "id": "p06_c01",
+          "name": "コマ1（上段）",
+          "prompt": "close-up of a resume document, the top summary section highlighted with a subtle glow effect",
+          "characters": [],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "最初に見るのは、\n職歴の羅列じゃない。",
+              "anchor": "top-right"
+            },
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "**「うちの求人に当てはまるか」\nの一行**です。",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p06_c02",
+          "name": "コマ2（中段・読み順で右）",
+          "prompt": "the businessman looking down at his own resume in his hands",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "俺の書類の一行目は……",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p06_c03",
+          "name": "コマ3（中段・読み順で左）",
+          "prompt": "close-up of the resume top line, generic self-introduction text visible as abstract lines",
+          "characters": [],
+          "balloons": [
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "「誠実に業務に\n取り組んでまいりました」",
+              "anchor": "center"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p06_c04",
+          "name": "コマ4（下段・大）",
+          "prompt": "the woman tapping the paper twice with her index finger, direct eye contact",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "それ、**何百人が\n同じこと書いてます。**",
+              "anchor": "top-right"
+            },
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "外す理由を探してる人間に、\n外す理由を差し出してるんですよ。",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "layout": "top_big__mid2__bottom",
+      "panels": [
+        {
+          "id": "p07_c01",
+          "name": "コマ1（上段・大）",
+          "prompt": "the businessman frozen, sweat drop, the realization hitting him, dramatic shading",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "……。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p07_c02",
+          "name": "コマ2（中段・読み順で右）",
+          "prompt": "flashback panel, screentone, the businessman at home late at night copying text from a web browser into a document",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "例文サイトを、そのまま。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p07_c03",
+          "name": "コマ3（中段・読み順で左）",
+          "prompt": "the businessman covering his mouth with one hand",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "俺、十五社に……\n同じ文章を……",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p07_c04",
+          "name": "コマ4（下段）",
+          "prompt": "the woman slightly softening her expression, leaning back in her chair",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "気づけたなら十分です。\nほとんどの人は、気づかないまま\n五十社落ちる。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "layout": "top2__mid_big__bottom",
+      "panels": [
+        {
+          "id": "p08_c01",
+          "name": "コマ1（上段・読み順で右）",
+          "prompt": "the businessman looking up with new determination",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "どう直せばいいんですか。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p08_c02",
+          "name": "コマ2（上段・読み順で左）",
+          "prompt": "the woman holding up one finger",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "一つだけ。",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p08_c03",
+          "name": "コマ3（中段・大）",
+          "prompt": "close-up of a pen writing on a blank document, clean dramatic composition, focused light",
+          "characters": [],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "**求人票に書いてある言葉を、**\n**自分の実績で言い換える。**",
+              "anchor": "top-right"
+            },
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "それだけで、\n十五秒の中身が変わります。",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p08_c04",
+          "name": "コマ4（下段）",
+          "prompt": "the businessman taking notes quickly in a small notebook",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "求人票の言葉を……\n俺の実績で……",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "layout": "top_big__mid2__bottom",
+      "panels": [
+        {
+          "id": "p09_c01",
+          "name": "コマ1（上段・大）",
+          "prompt": "the woman standing up, gathering documents, window light behind her",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "あと、佐倉さん。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p09_c02",
+          "name": "コマ2（中段・読み順で右）",
+          "prompt": "the businessman looking up",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "yota",
+              "text": "はい。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p09_c03",
+          "name": "コマ3（中段・読み順で左）",
+          "prompt": "the woman looking back over her shoulder, calm but pointed expression",
+          "characters": [
+            "rei"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "十五社落ちたのは、\nあなたの経歴が\n悪いからじゃない。",
+              "anchor": "top-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p09_c04",
+          "name": "コマ4（下段・大）",
+          "prompt": "wide shot of the meeting room, the woman at the door, the businessman still seated, light streaming in",
+          "characters": [
+            "rei",
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "speech",
+              "speaker": "rei",
+              "text": "**伝え方を、**\n**一度も設計しなかったからです。**",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "layout": "top__mid_big__bottom",
+      "panels": [
+        {
+          "id": "p10_c01",
+          "name": "コマ1（上段）",
+          "prompt": "the businessman walking out of the office building into evening city light, expression changed, straighter posture",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "書類は、読まれていない。",
+              "anchor": "top-right"
+            },
+            {
+              "type": "mono",
+              "speaker": "yota",
+              "text": "なら、読ませる書き方がある。",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p10_c02",
+          "name": "コマ2（中段・大）",
+          "prompt": "the businessman at his desk at home at night, laptop open, job posting displayed, writing intensely, determined",
+          "characters": [
+            "yota"
+          ],
+          "balloons": [
+            {
+              "type": "narration",
+              "text": "三日後、陽太は職務経歴書を\n一から書き直した。",
+              "anchor": "top-right"
+            }
+          ],
+          "pick": "a"
+        },
+        {
+          "id": "p10_c03",
+          "name": "コマ3（下段）",
+          "prompt": "close-up of a smartphone notification screen, a single new email, dramatic lighting",
+          "characters": [],
+          "balloons": [
+            {
+              "type": "narration",
+              "text": "そして、四社目で――",
+              "anchor": "top-right"
+            },
+            {
+              "type": "next",
+              "text": "次回　第2話\n「職務経歴書は『実績』ではなく『再現性』」",
+              "anchor": "bottom-left"
+            }
+          ],
+          "pick": "a"
+        }
+      ]
+    }
+  ]
+}

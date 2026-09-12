@@ -1,0 +1,24 @@
+{
+  "title": "転職サバイバル",
+  "title_kana": "てんしょくさばいばる",
+  "subtitle": "〜面接官だけが知る選考の秘密〜",
+  "author": "[著者名]",
+  "author_kana": "[ちょしゃめい]",
+  "publisher": "",
+  "language": "ja",
+  "description": "[内容紹介]",
+  "identifier": "urn:uuid:REPLACE-WITH-UUID",
+
+  "direction": "rtl",
+  "first_page_side": "left",
+  "page_width": 1200,
+  "page_height": 1920,
+
+  "pages_dir": "build/pages",
+  "cover": "build/cover.jpg",
+  "output": "build/tenshoku-survival.epub",
+
+  "chapters": [
+    { "page": 1, "title": "第1話　書類は読まれていない" }
+  ]
+}

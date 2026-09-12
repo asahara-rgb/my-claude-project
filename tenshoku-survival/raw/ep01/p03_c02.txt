@@ -1,0 +1,4 @@
+Japanese manga style, black and white line art, screentone shading, clean shonen-seinen art style, 38-year-old Japanese woman, long straight black hair tied back low, sharp narrow eyes, calm confident expression, charcoal gray pantsuit with white blouse, silver-rimmed glasses, composed professional posture, the woman in charcoal suit flipping through a printed resume, expressionless, only a few seconds of attention, consistent character design, monochrome manga panel, white background, no text, no speech bubbles, no letters, vertical B6 page ratio
+
+[negative]
+text, letters, speech bubble, watermark, signature, color, blurry, extra fingers, deformed face

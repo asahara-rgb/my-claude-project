@@ -1,0 +1,19 @@
+{
+  "yota": {
+    "name": "佐倉 陽太",
+    "age": 29,
+    "role": "主人公",
+    "prompt": "29-year-old Japanese businessman, short neat black hair with slight side part, thin eyebrows, average build, navy business suit with light blue shirt and navy tie, earnest slightly anxious expression"
+  },
+  "rei": {
+    "name": "黒木 玲",
+    "age": 38,
+    "role": "ナビ役",
+    "prompt": "38-year-old Japanese woman, long straight black hair tied back low, sharp narrow eyes, calm confident expression, charcoal gray pantsuit with white blouse, silver-rimmed glasses, composed professional posture"
+  },
+  "_extra": {
+    "name": "脇役（面接官・人事など）",
+    "role": "顔を出さない。後ろ姿・シルエット・手元のみ",
+    "prompt": "unnamed side character shown only from behind or as silhouette or hands only, face not visible"
+  }
+}

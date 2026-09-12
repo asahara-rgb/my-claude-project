@@ -1,0 +1,26 @@
+{
+  "style_prefix": "Japanese manga style, black and white line art, screentone shading, clean shonen-seinen art style",
+  "style_suffix": "consistent character design, monochrome manga panel, white background, no text, no speech bubbles, no letters, vertical B6 page ratio",
+  "negative_prompt": "text, letters, speech bubble, watermark, signature, color, blurry, extra fingers, deformed face",
+  "gen_width": 1024,
+  "gen_height": 1536,
+  "variants_per_panel": 4,
+
+  "page_width": 1200,
+  "page_height": 1920,
+  "page_margin": 56,
+  "gutter_x": 28,
+  "gutter_y": 40,
+  "panel_border": 6,
+
+  "font_size": 34,
+  "font_size_small": 28,
+  "font_size_narration": 30,
+  "max_chars_per_column": 11,
+  "balloon_padding": 26,
+  "balloon_border": 4,
+  "line_gap": 1.12,
+  "column_gap": 1.35,
+
+  "jpeg_quality": 88
+}
