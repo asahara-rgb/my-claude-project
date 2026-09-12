@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
+  <style>
+    body { margin: 0; font-family: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif; }
+    a { color: #ef7a56; } a:hover { color: #d9633f; }
+  </style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1080px; overflow: hidden; background: #12141c; color: #f5f2ec; box-sizing: border-box;">
+  <div style="position: absolute; right: -200px; top: -220px; width: 720px; height: 720px; border-radius: 50%; background: #ef7a56;"></div>
+  <div style="position: absolute; left: -200px; bottom: -240px; width: 420px; height: 420px; border-radius: 50%; border: 32px solid #f5f2ec; box-sizing: border-box; opacity: 0.92;"></div>
+  <div style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 88px 88px 80px 88px; box-sizing: border-box;">
+    <div style="display: flex; flex-direction: column; gap: 32px; align-items: flex-start;">
+      <div style="display: inline-flex; align-items: center; padding: 10px 22px; border-radius: 999px; background: #f5f2ec; color: #12141c; font-size: 24px; font-weight: 700; letter-spacing: 0.06em;">[キャンペーン名]</div>
+      <h1 style="margin: 0; font-size: 136px; line-height: 1.06; font-weight: 900; letter-spacing: -0.01em;">[サービス名]<br>新登場</h1>
+      <p style="margin: 0; font-size: 36px; line-height: 1.5; font-weight: 400; color: #cfcac0;">[日付]まで、<br>[特典内容]</p>
+    </div>
+    <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; width: 100%;">
+      <div style="display: inline-flex; align-items: center; gap: 14px; padding: 22px 40px; border-radius: 14px; background: #ef7a56; color: #12141c; font-size: 30px; font-weight: 700;">
+        <span>詳しくはこちら</span>
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#12141c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>
+      </div>
+      <div style="font-size: 24px; font-weight: 700; letter-spacing: 0.12em; color: #8f8a80;">[ブランド名]</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

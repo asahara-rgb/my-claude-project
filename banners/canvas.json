@@ -1,0 +1,14 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "OGP / SNS 1200×628", "x": 0, "y": 0, "w": 1200, "h": 628 },
+    { "file": "Square.dc.html", "title": "正方形 1080×1080", "x": 1300, "y": 0, "w": 1080, "h": 1080 },
+    { "file": "Leaderboard.dc.html", "title": "リーダーボード 728×90", "x": 0, "y": 780, "w": 728, "h": 90 },
+    { "file": "Rectangle.dc.html", "title": "レクタングル 300×250", "x": 830, "y": 780, "w": 300, "h": 250 },
+    { "file": "DirectionB.dc.html", "title": "別案B：暖色ミニマル（明朝）", "x": 0, "y": 1280, "w": 1200, "h": 628 },
+    { "file": "DirectionC.dc.html", "title": "別案C：ポップ・高コントラスト", "x": 1300, "y": 1280, "w": 1200, "h": 628 }
+  ],
+  "annotations": [
+    { "id": "placeholders", "x": 0, "y": -200, "w": 520, "text": "角括弧 [ ] の部分は仮の文言です。サービス名・日付・特典内容・ブランド名を差し替えてください。\n上段4枚がメイン案、下段の2枚は別方向のラフ案です。" }
+  ],
+  "launch": { "view": "canvas" }
+}
