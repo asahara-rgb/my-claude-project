@@ -17,9 +17,12 @@ tenshoku-survival/
 ├── build/cover.jpg           # 表紙
 ├── build/*.epub              # 固定レイアウト EPUB
 ├── fonts/                    # セリフ用日本語フォント（商用可・埋め込み可のものを置く）
-├── docs/ep01_name_review.md  # 第1話ネームのレビュー
+├── docs/ep01_name_review.md            # 第1話ネームのレビュー
+├── docs/image_tool_recommendation.md   # 画像生成ツールの選定と一貫性検証の手順
 └── scripts/
-    ├── 01_gen_images.py      # プロンプト連結 → 画像生成（provider: placeholder / prompts / cmd）
+    ├── 00_character_test.py  # キャラ参照シート生成 → 20構図テスト → 一覧表示（一貫性検証）
+    ├── providers.py          # 生成プロバイダ: placeholder / cmd / openai / gemini（API は --dry-run で要確認）
+    ├── 01_gen_images.py      # プロンプト連結 → 画像生成（raw/refs/ の参照画像を自動同送）
     ├── 02_compose_text.py    # 吹き出し＋縦書きセリフ描画ライブラリ（禁則・太字・回転文字）
     ├── 03_build_pages.py     # コマをレイアウトに合成 → セリフ合成 → 1ページ1画像
     ├── 04_build_epub.py      # ../manga/tools/build_epub.py を呼んで右開き EPUB を生成
@@ -32,7 +35,15 @@ tenshoku-survival/
 cd tenshoku-survival
 pip install pillow
 
+# 0. キャラ一貫性の検証（docs/image_tool_recommendation.md）
+export GEMINI_API_KEY=...            # または OPENAI_API_KEY
+python3 scripts/00_character_test.py sheet --provider gemini --dry-run   # まずリクエスト内容を確認
+python3 scripts/00_character_test.py sheet --provider gemini             # 参照シート → raw/refs/<key>_1.png, _2.png（納得する2枚を選んで残す）
+python3 scripts/00_character_test.py test  --provider gemini --count 20  # 20構図 → raw/test/
+python3 scripts/00_character_test.py sheet-view                          # raw/test/contact_<key>.png で見比べる
+
 # 1. コマ画像
+python3 scripts/01_gen_images.py --episode 1 --provider gemini --variants 4   # raw/refs/ の参照画像を自動同送
 python3 scripts/01_gen_images.py --episode 1 --provider prompts        # プロンプトだけ書き出す（Midjourney / NovelAI / ComfyUI 等に投入）
 #    → raw/ep01/<panel_id>.txt を読んで生成し、<panel_id>_a.png（案b,c,d は _b …）として raw/ep01/ に保存
 #    ローカルSD等にCLIがあるなら:

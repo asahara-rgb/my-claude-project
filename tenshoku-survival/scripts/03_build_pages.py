@@ -3,6 +3,7 @@
 
   python3 scripts/03_build_pages.py --episode 1                  # build/pages/0001.jpg … を出力
   python3 scripts/03_build_pages.py --episode 1 --page 4 --preview   # 1ページだけ、composed/ に PNG
+  python3 scripts/03_build_pages.py --episode 1 --grayscale          # コマ画像をモノクロ化して合成
 
 処理:
   1. spec/layouts.json のセルにコマ画像（raw/epNN/<id>_<pick>.png）を「はみ出し切り抜き（cover）」で配置
@@ -40,7 +41,7 @@ def panel_image(panel, raw_dir):
     raise SystemExit(f"コマ画像がありません: {panel['id']}_{pick}.png  → 01_gen_images.py を実行するか raw/ に置いてください")
 
 
-def build_page(page, specs, styles, scale=2.0):
+def build_page(page, specs, styles, scale=2.0, grayscale=False):
     """内部では page_width*scale で描いて最後に縮小（線と文字を滑らかにする）。"""
     st = specs["style"]
     W, H = int(st["page_width"] * scale), int(st["page_height"] * scale)
@@ -70,6 +71,8 @@ def build_page(page, specs, styles, scale=2.0):
         y1 = margin + (cell["y"] + cell["h"]) * ih - (gy / 2 if cell["y"] + cell["h"] < 0.999 else 0)
         x0, y0, x1, y1 = map(int, (x0, y0, x1, y1))
         art = cover_crop(panel_image(panel, raw_dir), x1 - x0, y1 - y0, panel.get("focus", "center"))
+        if grayscale:
+            art = art.convert("L").convert("RGB")
         img.paste(art, (x0, y0))
         if panel.get("border", True):
             d.rectangle([x0, y0, x1 - 1, y1 - 1], outline="black", width=border)
@@ -86,6 +89,7 @@ def main():
     ap.add_argument("--start", type=int, default=1, help="通しページ番号の開始")
     ap.add_argument("--preview", action="store_true", help="composed/epNN/ に PNG で出す（build/ には出さない）")
     ap.add_argument("--out", help="出力フォルダ（既定 build/pages）")
+    ap.add_argument("--grayscale", action="store_true", help="コマ画像をグレースケール化して合成（カラーで返るモデル対策）")
     a = ap.parse_args()
 
     specs = load_specs(a.episode)
@@ -97,7 +101,7 @@ def main():
     for page in specs["pages"]["pages"]:
         if a.page and page["page"] != a.page:
             continue
-        img = build_page(page, specs, styles)
+        img = build_page(page, specs, styles, grayscale=a.grayscale)
         n = a.start + page["page"] - 1
         if a.preview:
             dest = os.path.join(out_dir, f"p{page['page']:02d}.png")
