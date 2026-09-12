@@ -1,0 +1,24 @@
+/* サンプル原稿の共通スタイル。ページは 1600x2560px 固定。 */
+html, body { margin: 0; padding: 0; background: #fff; }
+body { font-family: "IPAGothic", "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", sans-serif; color: #111; }
+.page { position: relative; width: 1600px; height: 2560px; overflow: hidden; background: #fff; }
+.panel { position: absolute; border: 7px solid #111; background: #fff; overflow: hidden; box-sizing: border-box; }
+.panel.tone { background: repeating-linear-gradient(45deg, #fff 0 7px, #ddd 7px 9px); }
+.panel.dark { background: #1a1a1a; }
+.panel.tone2 { background: radial-gradient(#bbb 1.6px, transparent 1.8px) 0 0/16px 16px, #fff; }
+.bubble { position: absolute; background: #fff; border: 6px solid #111; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 36px 40px; box-sizing: border-box; }
+.bubble p { margin: 0; writing-mode: vertical-rl; text-orientation: mixed; font-size: 52px; line-height: 1.6; font-weight: bold; letter-spacing: 0.04em; white-space: pre; }
+.bubble.shout { border-radius: 0; clip-path: polygon(50% 0, 62% 12%, 80% 4%, 82% 22%, 100% 26%, 90% 42%, 100% 58%, 86% 66%, 92% 86%, 72% 82%, 62% 100%, 50% 88%, 36% 100%, 28% 82%, 8% 88%, 14% 68%, 0 58%, 10% 42%, 0 26%, 18% 20%, 20% 4%, 36% 12%); border: none; background: #111; padding: 90px; }
+.bubble.shout p { color: #fff; }
+.bubble.shout::before { content: ""; position: absolute; inset: 12px; background: #fff; clip-path: inherit; z-index: 0; }
+.bubble.shout p { position: relative; z-index: 1; color: #111; }
+.bubble.thought { border-style: dashed; }
+.caption { position: absolute; background: #fff; border: 6px solid #111; padding: 22px 30px; font-size: 44px; font-weight: bold; line-height: 1.5; }
+.sfx { position: absolute; font-size: 200px; font-weight: 900; line-height: 1; color: #111; -webkit-text-stroke: 8px #fff; paint-order: stroke fill; transform: rotate(-8deg); letter-spacing: -0.05em; }
+.sfx.outline { color: #fff; -webkit-text-stroke: 10px #111; }
+.title { position: absolute; font-weight: 900; }
+.nombre { position: absolute; bottom: 60px; font-size: 40px; color: #555; }
+.nombre.l { left: 90px; } .nombre.r { right: 90px; }
+.speed { position: absolute; inset: 0; background: repeating-conic-gradient(from 0deg at 50% 50%, #111 0 0.6deg, transparent 0.6deg 6deg); opacity: .8; }
+.speed::after { content: ""; position: absolute; inset: 22%; border-radius: 50%; background: #fff; }
+svg.chara { position: absolute; overflow: visible; }

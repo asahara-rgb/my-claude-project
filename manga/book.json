@@ -1,0 +1,23 @@
+{
+  "title": "[作品タイトル]",
+  "title_kana": "[さくひんたいとる]",
+  "author": "[著者名]",
+  "author_kana": "[ちょしゃめい]",
+  "publisher": "",
+  "language": "ja",
+  "description": "[内容紹介（KDPの商品ページ用。ここはEPUBのメタデータにも入ります）]",
+  "identifier": "urn:uuid:REPLACE-WITH-UUID",
+
+  "direction": "rtl",
+  "first_page_side": "left",
+  "page_width": 1600,
+  "page_height": 2560,
+
+  "pages_dir": "pages",
+  "cover": "cover/cover.jpg",
+  "output": "dist/manga.epub",
+
+  "chapters": [
+    { "page": 1, "title": "第1話" }
+  ]
+}
